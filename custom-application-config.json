@@ -2,7 +2,7 @@
     "env": {
       "production": {
         "applicationId": "cl5mbr2dl82722601262c52uxx1",
-        "url": "https://<project>.1.azurestaticapps.net"
+        "url": "https://gentle-sand-03d5b9210.1.azurestaticapps.net"
      }
   }
 }
