@@ -1,0 +1,191 @@
+#navbar {
+	width: 100%;
+	background-color: #010322;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#navbar.scrolled {
+	background-color: #1e0381;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#nav-link {
+	padding: 10px 20px;
+	color: #faf5f5;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+#nav-link:hover {
+	color: #656566;
+}
+
+#main-content {
+	background: url("./assets/Galaxy1.jpg");
+}
+
+#submenu-1 {
+	right: 68%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	visibility: hidden;
+	z-index: 25;
+}
+
+a:hover #submenu-1 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-1 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	color: #fcf9f9;
+}
+
+a:hover a:hover {
+	background-color: rgb(119, 118, 118);
+	color: white;
+}
+#submenu-1 :hover {
+	color: gray;
+}
+
+#submenu-2 {
+	right: 55%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	visibility: hidden;
+	z-index: 25;
+}
+
+a:hover #submenu-2 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-2 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	/* border: 1px solid #ccc; */
+	color: #fcf9f9;
+}
+a:hover a:hover {
+	background-color: rgb(119, 118, 118);
+	color: white;
+}
+
+#submenu-2 :hover {
+	color: gray;
+}
+
+#submenu-3 {
+	right: 45%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	visibility: hidden;
+	z-index: 25;
+}
+
+a:hover #submenu-3 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-3 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	color: #fcf9f9;
+}
+
+#submenu-3 :hover {
+	color: gray;
+}
+
+#submenu-4 {
+	right: 35%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	z-index: 25;
+}
+
+a:hover #submenu-4 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-4 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	color: #fcf9f9;
+}
+
+#submenu-4 :hover {
+	color: gray;
+}
+
+#submenu-5 {
+	right: 28%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	visibility: hidden;
+	z-index: 25;
+}
+
+a:hover #submenu-5 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-5 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	color: #fcf9f9;
+}
+
+#submenu-5 :hover {
+	color: gray;
+}
+
+#submenu-6 {
+	right: 20%;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	visibility: hidden;
+	z-index: 25;
+}
+
+a:hover #submenu-6 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#submenu-6 a {
+	padding: 0.9rem;
+	background-color: rgb(14, 1, 46);
+	color: #fcf9f9;
+}
+
+#submenu-6 :hover {
+	color: gray;
+}
+
+#footer {
+	background-color: #010322;
+}
+
+#dropdown-btn {
+	padding-left:150px;
+}
+
+#about-us {
+	width: 80%;
+	padding-left: 15%;
+}
